@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "Take data from Notion and try to discover my training results",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "start": "node ./index.js"
+    "start": "node ./index.js",
+    "build": "npx @11ty/eleventy"
   },
   "author": "plotnikov-ep",
   "license": "ISC",
