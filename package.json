@@ -1,0 +1,16 @@
+{
+  "name": "training-stat",
+  "version": "1.0.0",
+  "description": "Take data from Notion and try to discover my training results",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "author": "plotnikov-ep",
+  "license": "ISC",
+  "dependencies": {
+    "@notionhq/client": "^2.2.2",
+    "dotenv": "^16.0.3"
+  }
+}
